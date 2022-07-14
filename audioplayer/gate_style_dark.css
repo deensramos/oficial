@@ -1,0 +1,589 @@
+/****************************** ****************************** 
+   	  Spotify Fangate Light Theme Page Style CSS
+****************************** *****************************/
+.spotify-fangate {
+    display: block;
+    background: #26333F;
+}
+.spotify-fangate header {
+    background-color: #23282e;
+    height: 65px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+}
+.spotify-fangate .navbar-default {
+    border-bottom: 1px solid #4b5056;
+    margin: 0;
+}
+.spotify-fangate .navbar-default .navbar-toggle {
+    border-color: #23282e;
+    background: #23282e;
+}
+.spotify-fangate .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.spotify-fangate .navbar-default .container-fluid {
+    padding: 0 30px 0 0;
+}
+.spotify-fangate .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.spotify-fangate .navbar-default .navbar-nav > .open > a,
+.spotify-fangate .navbar-default .navbar-nav > .open > a:focus,
+.spotify-fangate .navbar-default .navbar-nav > .open > a:hover {
+    color: #ffffff;
+}
+.spotify-fangate .navbar-default .navbar-nav > li > a:hover {
+    color: #f1240c;
+}
+.spotify-fangate .navbar-nav > li.login a {
+    color: #f1240c;
+}
+.spotify-main-container {
+    height: 100vh;
+}
+.spotify-page .artwork {
+    background-color: #3F4A54;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.spotify-page .artwork_image .artwork_image_inner {
+    background: #26333F;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 520px;
+    height: 520px;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: table;
+}
+.spotify-page .artwork_image {
+    pointer-events: none;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.spotify-page .artwork_image img {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.spotify-page .artwork_image_inner {
+    pointer-events: all;
+}
+.artwork_image_box {
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.spotify-page .artwork,
+.spotify-page .artwork_image {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 380px;
+    top: 0;
+    width: auto;
+}
+.spotify-page .artwork {
+    overflow: hidden;
+}
+.spotify-page .artwork_background {
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table-cell;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -ms-filter: blur(20px);
+    -o-filter: blur(20px);
+    filter: blur(20px);
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    vertical-align: middle;
+    width: 100%;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.spotify-page .release-content {
+    background-color: #26333F;
+    margin: 0 auto;
+    max-width: 380px;
+    padding: 0;
+    position: relative;
+    width: 380px;
+    float: right;
+    min-height: 100%;
+}
+.sidebar-content-section {
+    padding: 35px 40px 65px;
+    display: block;
+}
+.sidebar-main-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+}
+.sidebar-heading {
+    display: block;
+    margin-bottom: 35px;
+}
+.sidebar-heading h1,
+.sidebar-heading h2 {
+    color: #ffffff;
+    font-family: "NexaBlack";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+.sidebar-heading h2 {
+    font-family: "NexaLight";
+}
+.sidebar-buttons {
+    display: block;
+}
+.spbtn_number {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50em;
+    color: #dad9d9;
+    display: inline-block;
+    font-family: "NexaBlack";
+    font-size: 12px;
+    font-weight: normal;
+    height: 20px;
+    left: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 8px;
+    text-align: center;
+    width: 20px;
+}
+.hy-btn-spotify {
+    background: #1fd760;
+    color: #ffffff;
+}
+.hy-btn-spotify:hover {
+    background: #14c854;
+    color: #ffffff;
+}
+.hy-btn-spotify-disable {
+    background: #dad9d9;
+    color: #ffffff;
+    pointer-events: none;
+}
+.hy-btn-spotify-disable:hover {
+    background: #dad9d9;
+    color: #ffffff;
+}
+.sidebar-buttons .button,
+.sidebar-buttons .hy-btn {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+}
+.all-buttons .button,
+.all-buttons .hy-btn {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+}
+.hy-btn-spotify .spbtn_number {
+    color: #1fd760;
+}
+.siderbar-connect-text {
+    color: #dad8d9;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 35px;
+}
+.siderbar-connect-text a {
+    color: #1fd760;
+}
+.siderbar-connect-text a:hover {
+    text-decoration: underline;
+}
+a.sphere-link {
+    color: #dad8d9;
+    text-decoration: underline;
+}
+a.sphere-link:hover {
+    color: #ffffff;
+}
+.sidebar-footer {
+    bottom: 25px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.sidebar-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-footer ul li {
+    display: inline-block;
+    font-size: 10px;
+    color: #b1b8bf;
+    border-right: 1px solid #b1b8bf;
+}
+.sidebar-footer ul li:last-child {
+    border: none;
+}
+.sidebar-footer ul li a {
+    color: #b1b8bf;
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0 7px;
+}
+.sidebar-footer ul li a:hover {
+    text-decoration: underline;
+}
+.sidebar-footer ul li:last-child a {
+    color: #f43010;
+}
+.spotify-page .artwork_image_inner .pause,
+.spotify-page .artwork_image_inner .play,
+.spotify-page .artwork_image_inner .start {
+    background-color: rgba(34, 40, 46, 0.7);
+    border-radius: 50%;
+    display: block;
+    height: 80px;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    width: 80px;
+}
+.spotify-page .artwork_image_inner .pause {
+    background-color: rgba(34, 40, 46, 0.3);
+}
+.spotify-page .artwork_image_inner .pause .fainner,
+.spotify-page .artwork_image_inner .play .fainner,
+.spotify-page .artwork_image_inner .start .fainner {
+    background: #f43010 none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(34, 40, 46, 0.7);
+    color: #fff;
+    display: block;
+    height: 52px;
+    left: 14px;
+    position: relative;
+    top: 14px;
+    width: 52px;
+}
+.spotify-page .artwork_image_inner .pause .fainner {
+    -webkit-animation: hypulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: hypulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: hypulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: hypulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.spotify-page .artwork_image_inner .pause .fainner i,
+.spotify-page .artwork_image_inner .play .fainner i,
+.spotify-page .artwork_image_inner .start .fainner i {
+    display: block;
+    font-size: 26px;
+    line-height: 52px;
+}
+.spotify-page .artwork_image_inner .play .fainner i::before,
+.spotify-page .artwork_image_inner .start .fainner i::before {
+    content: "\f04b";
+    margin-left: 5px;
+}
+.spotify-page .artwork_image_inner .pause .fainner i::before {
+    content: "\f04c";
+}
+.spotify-page .artwork_image_inner .play:hover,
+.spotify-page .artwork_image_inner .start:hover {
+    box-shadow: 0 0 0 10px rgba(34, 40, 46, 0.4);
+}
+@-webkit-keyframes hypulse {
+    to {
+        box-shadow: 0 0 0 15px rgba(34, 40, 46, 0);
+    }
+}
+@-moz-keyframes hypulse {
+    to {
+        box-shadow: 0 0 0 15px rgba(34, 40, 46, 0);
+    }
+}
+@-ms-keyframes hypulse {
+    to {
+        box-shadow: 0 0 0 15px rgba(34, 40, 46, 0);
+    }
+}
+@keyframes hypulse {
+    to {
+        box-shadow: 0 0 0 15px rgba(34, 40, 46, 0);
+    }
+}
+@media (min-width:768px) and (max-width:860px) {
+    .spotify-fangate .navbar-default .navbar-collapse {
+        background: #000000 none repeat scroll 0 0 !important;
+    }
+}
+@media (min-width:481px) and (max-width:767px) {
+    .spotify-fangate .navbar-default .navbar-collapse {
+        background: #000000 none repeat scroll 0 0 !important;
+    }
+}
+@media (max-width:480px) {
+    .spotify-fangate .navbar-default .navbar-collapse {
+        background: #000000 none repeat scroll 0 0 !important;
+    }
+}
+/****************************** ****************************** 
+   		   New Soundcloud Fangate Page Style CSS
+****************************** *****************************/
+.for-sc-fangate .sidebar-buttons .select .form-control {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    height: 35px;
+    padding-left: 42px;
+}
+.for-sc-fangate .sidebar-buttons .select .spbtn_number {
+    box-shadow: 0 0 1px 1px #dce1e6;
+    -webkit-box-shadow: 0 0 1px 1px #dce1e6;
+    -moz-box-shadow: 0 0 1px 1px #dce1e6;
+}
+.for-sc-fangate .siderbar-connect-text {
+    color: #dad8d9;
+}
+.for-sc-fangate .siderbar-connect-text a {
+    color: #dad8d9;
+    text-decoration: underline;
+}
+.for-sc-fangate .siderbar-connect-text a:hover {
+    color: #f43010;
+    text-decoration: underline;
+}
+.for-sc-fangate .hy-btn-orange .spbtn_number {
+    color: #f43010;
+}
+.for-sc-fangate .hy-btn-lightgray .spbtn_number {
+    color: #dad9d9;
+}
+@media (max-width:860px) {
+    .spotify-fangate .navbar-toggle {
+        margin-right: 0;
+    }
+    /*New CSS Added for Spotify Fangate Header Menu Drop Down Sprint15*/
+    .spotify-fangate .navbar-nav .open .dropdown-menu,
+    .spotify-fangate .without-log .navbar-nav .open .dropdown-menu {
+        background-color: #1d2023 !important;
+    }
+    .spotify-fangate .navbar-nav .open .dropdown-menu li {
+        border-bottom: 1px solid #292d32 !important;
+    }
+    .spotify-fangate .without-log .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff !important;
+    }
+    .spotify-fangate .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+    .spotify-fangate .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #f1240c !important;
+    }
+}
+/****************************** ****************************** 
+   	 New Soundcloud Fangate Page Style CSS Sprint-15
+****************************** *****************************/
+.fangate-slider-indicator ul li {
+    background: #3f4a54 none repeat scroll 0 0;
+    transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+}
+.fangate-slider-indicator ul li.active {
+    background: #d7dbe0 none repeat scroll 0 0;
+}
+.fangate-slider-content h5 {
+    color: #ffffff;
+}
+.unlimited-content h5 {
+    color: #495159;
+}
+/* Donwload button animation */
+.move-bottom-now {
+    opacity: 1 !important;
+    top: -50px !important;
+}
+.show-next {
+    opacity: 1 !important;
+}
+.downloadProcess {
+    opacity: 0;
+    top: -165px;
+    transition: opacity 0.3s ease 0.1s, top 0.4s ease 0s;
+    -webkit-transition: opacity 0.3s ease 0.1s, top 0.4s ease 0s;
+    -moz-transition: opacity 0.3s ease 0.1s, top 0.4s ease 0s;
+    -o-transition: opacity 0.3s ease 0.1s, top 0.4s ease 0s;
+}
+.move-bottom {
+    opacity: 0!important;
+    top: 115px !important;
+}
+.sidebar-buttons {
+    position: relative;
+    opacity: 1;
+    top: 0;
+    transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+    -webkit-transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+    -ms-transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+    -o-transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+}
+.all-buttons {
+    position: relative;
+    opacity: 1;
+    top: 0;
+    transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+    -webkit-transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+    -ms-transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+    -o-transition: top 0.4s ease 0s, opacity 0.3s ease 0.1s;
+}
+/* Steps CSS ****/
+#myCarousel .carousel-inner {
+    overflow: visible !important;
+}
+/*#section-one {
+	z-index: 1;
+}*/
+.zindex {
+    z-index: 1;
+}
+/*#section-two {
+    top: -265px;
+}
+#section-three {
+    top: -430px;
+}
+#section-four {
+    top: -688px;
+}*/
+#section-eight,
+#section-five,
+#section-four,
+#section-nine,
+#section-one,
+#section-seven,
+#section-six,
+#section-ten,
+#section-three,
+#section-two {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.move-left {
+    left: -15% !important;
+    opacity: 0 !important;
+    z-index: -1 !important;
+}
+.current-slide {
+    left: 0;
+    opacity: 1;
+    transition: left 0.4s ease 0s, opacity 0.4s ease 0s;
+    -webkit-transition: left 0.4s ease 0s, opacity 0.4s ease 0s;
+    -moz-transition: left 0.4s ease 0s, opacity 0.4s ease 0s;
+    -o-transition: left 0.4s ease 0s, opacity 0.4s ease 0s;
+    position: relative;
+}
+#myCarousel .fangate-widget {
+    overflow: hidden;
+}
+.upcomming-slide {
+    z-index: -1;
+    left: 15% !important;
+    opacity: 0 !important;
+    transition: left 0.4s ease 0s, opacity 0.4s ease 0s !important;
+    -webkit-transition: left 0.4s ease 0s, opacity 0.4s ease 0s !important;
+    -moz-transition: left 0.4s ease 0s, opacity 0.4s ease 0s !important;
+    -o-transition: left 0.4s ease 0s, opacity 0.4s ease 0s !important;
+}
+/****************************** ****************************** 
+  				Download Gate - CSS Sprint-23
+****************************** *****************************/
+.sb-unlimiled-gate .siderbar-connect-text,
+.sb-unlimiled-gate.for-sc-fangate .siderbar-connect-text {
+    color: #fff;
+}
+.sb-unlimiled-gate .siderbar-connect-text a,
+.sb-unlimiled-gate.for-sc-fangate .siderbar-connect-text a {
+    color: #fff;
+}
+.sb-unlimiled-gate .siderbar-connect-text a:hover,
+.sb-unlimiled-gate.for-sc-fangate .siderbar-connect-text a:hover {
+    color: #fff;
+}
+/****************************** ****************************** 
+   		   New Mixcloud Fangate Page Style CSS
+****************************** *****************************/
+.mc-track-list-section h3 {
+    border-bottom: 1px solid #495159;
+    color: #fff;
+}
+/****************************** ****************************** 
+  	  Music Link - Light Scheme - HYPE-821 - Sprint-41
+****************************** *****************************/
+.button-outline-morelight {
+    border-color: #b1b8bf;
+}
+.button-outline-morelight:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.button-outline-morelight.disabled,
+.button-outline-morelight:disabled {
+    border-color: rgba(215,219,224,0.5);
+    color: rgba(215,219,224,0.5);
+}
+.button-outline-morelight.active,
+.button-outline-morelight:active {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.smart-link-list-section {
+    border-top-color: #ffffff;
+}
+.smart-link-list-section ul li {
+    border-bottom-color: #34404b;
+}
+.smart-link-logo h4 {
+    color: #ffffff;
+}
+/*Or Separator*/
+.orseparator {
+    color: #ffffff;
+}
+.orseparator::after,
+.orseparator::before {
+    background-color: #ffffff;
+}
+.hintdisclaimer {
+    color: #ffffff;
+}
